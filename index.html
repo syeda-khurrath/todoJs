@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Todos</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="display-5 m-4">Todo App</h1>
+      <form class="searchForm">
+        <input type="text" name="search" placeholder="Search Todos" class="inputStyle" />
+        
+      </form>
+    </header>
+
+    <div class="container mt-5 mb-5">
+      <ul class="todos list-group ">
+        <li class="list-group-item list-group-item-dark list-item " >
+          <p >Play</p>
+          <button class="btn btn-danger material-icons delete ">delete</button>
+        </li>
+        <li class="list-group-item list-group-item-dark list-item ">
+          <p>Study</p>
+          <button class="btn btn-danger material-icons delete">delete</button>
+        </li>
+        <li class="list-group-item list-group-item-dark list-item ">
+          <p>Sleep</p>
+          <button class="btn btn-danger material-icons delete">delete</button>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <form class="addTodo">
+        <input type="text" name="add" placeholder="Add Todos" class="inputStyle" />
+       
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

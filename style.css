@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: slateblue;
+  }
+  .todos {
+    list-style: none;
+  }
+  .hide {
+    display: none;
+  }
+.list-item > p{
+  display: inline;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(71, 71, 77);
+}
+.inputStyle{
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 20px;
+  outline:none;
+  border: 1px solid white;
+}
+
+.list-item{
+  max-width: 50%;
+  position:relative;
+  left: 25%;
+ 
+}
+.delete{
+  float: right;
+}
